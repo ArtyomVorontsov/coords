@@ -2,7 +2,7 @@
 # generate_coordinates.sh — create a ~2GB file with random x y z coordinates
 
 OUTPUT_FILE="coordinates.txt"
-TARGET_SIZE=$((2 * 1024 * 1024))  # 2 GB in bytes
+TARGET_SIZE=$((2 * 1024 * 1024 * 1024))  # 2 GB in bytes
 
 echo "Generating $OUTPUT_FILE (~2GB)..."
 
